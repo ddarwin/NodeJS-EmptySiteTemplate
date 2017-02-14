@@ -1,4 +1,5 @@
 var http = require('http');
+var newrelic = require('newrelic');
 
 http.createServer(function (req, res) {
     
